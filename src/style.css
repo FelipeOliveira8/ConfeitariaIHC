@@ -30,3 +30,9 @@ header {
     text-align: center;
     height: 1em;
 }
+
+img{
+    width: 30em;
+    margin: auto;
+    margin-top: 0;
+}
