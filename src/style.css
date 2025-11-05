@@ -14,3 +14,13 @@ header {
     height: 4em;
     display: flex;
 }
+
+.header-container h1{
+    margin: auto;
+    margin-left: 1em;
+}
+
+.header-container ul{
+    margin-right: 1em;
+    display: flex;
+}
