@@ -21,6 +21,9 @@ header {
 }
 
 .header-container ul{
+    margin: auto;
     margin-right: 1em;
     display: flex;
+    list-style: none;
+    gap: 1em;
 }
