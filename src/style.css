@@ -1,19 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 header {
   background-color: rgb(255, 143, 240);
   color: rgb(255, 255, 255);
-  margin: 0;
   width: 100%;
-}
-
-body {
-  background: hsl(176, 100%, 97%);
-  padding: 0 24px;
-  margin: 0;
-  height: 100vh;
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .header-container{
