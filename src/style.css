@@ -4,9 +4,54 @@
 }
 
 header {
-  background-color: rgb(255, 143, 240);
-  color: rgb(255, 255, 255);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: rgb(146, 148, 114);
   width: 100%;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  z-index: 10;
+}
+
+.add-header{
+    margin: 0;
+    padding: 0;
+    margin: auto;
+    margin-bottom: 0;
+    font-weight: bold;
+    color: white;
+}
+
+.top-header{
+    width: 100%;
+    height: 5em;
+    background-color: rgb(212, 212, 212);
+    display: flex;
+}
+
+.top-header h1{
+    margin: auto;
+    font-weight: normal;
+    color: rgb(54, 47, 35);
+}
+
+header ul{
+    display: flex;
+    justify-content: space-between;
+    width: 25em;
+    list-style: none;
+    margin: auto;
+    padding: .5em;
+    color: rgb(255, 255, 255);
+}
+
+header ul li{
+    cursor: pointer;
+    margin: auto;
+}
+
+header ul li:hover{
+    transform: scale(1.05);
 }
 
 .header-container{
@@ -32,7 +77,65 @@ header {
 }
 
 img{
-    width: 30em;
+    width: 100%;
+    max-height: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.apresentacao-container{
+    font-family: "Urbanist", sans-serif;
+    margin-left: 1em;
+    margin-top: 1em;
+}
+
+.cardapio-container{
+    font-family: "Urbanist", sans-serif;
+    margin-top: 1em;
+    margin-bottom: 5em;
+    display: flex;
+    flex-direction: column;
+}
+
+.cardapio-container h2{
+    margin-left: 1em;
+}
+
+.itens-cardapio{
+    width: 90%;
+    height: 20em;
+    display: flex;
+    justify-content: space-between;
     margin: auto;
-    margin-top: 0;
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+
+.itens-cardapio div{
+    width: 20em;
+    background-color: rgb(255, 255, 230);
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.itens-cardapio div img{
+    margin: auto;
+    height: 100%;
+    width: 100%;
+}
+
+.itens-cardapio div h3{
+    margin: auto;
+    margin-top: 1em;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }

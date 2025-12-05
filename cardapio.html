@@ -18,38 +18,19 @@
     <h1>Confeitaria sempre doce</h1>
   </div>
   <ul>
-    <li>Inicio</li>
+    <li onclick="window.location.href='index.html'">Inicio</li>
     <li>Sobre</li>
-    <li onclick="window.location.href='cardapio.html'">Cardapio</li>
+    <li>Cardapio</li>
     <li>Contato</li>
   </ul>
 </header>
 <img src="img/bolo_de_aniversario.png">
 
 <body>
-  <div class="urbanist-font apresentacao-container">
-    <h2>Bem vindo à confeitaria Sempre Doce!</h2>
-    <p>Na Sempre Doce, cada receita nasce com carinho e dedicação.
-      Acreditamos que o sabor vai além do paladar — é uma experiência de afeto.
-      Cada detalhe é pensado para adoçar momentos especiais.
-      Porque, para nós, cada doce é feito especialmente para você.
-    </p>
-  </div>
   <div class="cardapio-container">
     <h2 style="font-size: 25px;">Nosso cardapio</h2>
-    <div class="itens-cardapio">
-      <div>
-        <img src="img/bolo_de_chocolate.jpg" alt="Bolo de chocolate">
-        <h3>Bolo de chocolate - R$39,90</h3>
-      </div>
-      <div>
-        <img src="img/bolo_de_morango.jpg" alt="Bolo de morango">
-        <h3>Bolo de morango - R$45,90</h3>
-      </div>
-      <div>
-        <img src="img/bolo_de_cenoura.jpg" alt="Bolo de cenoura">
-        <h3>Bolo de cenoura - R$19,90</h3>
-      </div>
+    <div class="itens-cardapio" id="itens-cardapio">
+      
     </div>
   </div>
 </body>
@@ -59,4 +40,6 @@
     Todos os direitos reservados.
   </p>
 </footer>
+<script src="cardapio.js"></script>
+
 </html>
